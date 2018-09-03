@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-        我就不信 项目要一直报错！！
+
+  <a href="login.action" >进入我的系统</a>
   </body>
 </html>

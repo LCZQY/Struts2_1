@@ -5,9 +5,13 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-    <package name="dome"  extends="struts-default" namespace="/">
-        <action name="login"  class="pages.Logins" >
-             <result name="success">/index.jsp</result>
+    <package name="dome" extends="struts-default" namespace="/">
+        <action name="index" class="pages.Logins" method="execute">
+            <result name="success">/index.jsp</result>
+        </action>
+
+        <action name="login" class="pages.Logins" method="goHomePage">
+            <result name="success">/WEB-INF/View/home.jsp</result>
         </action>
     </package>
 </struts>

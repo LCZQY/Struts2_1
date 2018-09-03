@@ -16,8 +16,11 @@ public class Logins extends ActionSupport {
 
     @Override
     public String execute() throws Exception {
-
             return SUCCESS;
+    }
 
+    public String goHomePage ()
+    {
+        return  SUCCESS;
     }
 }
