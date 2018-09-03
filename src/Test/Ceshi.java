@@ -14,7 +14,7 @@ public class Ceshi {
     private static Session session;
 
     public static void main(String[] args) {
-        // 提交测试
+        // 提交测试s
         // 第一步 加载hibernate核心配置文件
         // 到src下面找到名称是hibernate.cfg.xml
         // 在hibernate里面封装对象
