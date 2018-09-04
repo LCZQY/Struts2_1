@@ -3,14 +3,13 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
-<hibernate-mapping>
-    <class name="Entity.User" table="my_user">
+<hibernate-mapping >
+
+    <class name="Entity.User" table="User">
         <id name="uid" column="uid">
             <generator class="native"/>
         </id>
-
         <property name="username" column="username"  type="java.lang.String" length="20" />
         <property name="password" column="password"  type="java.lang.String" length="20"/>
-
     </class>
 </hibernate-mapping>

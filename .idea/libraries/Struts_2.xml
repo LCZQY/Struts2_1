@@ -14,6 +14,7 @@
       <root url="jar://$USER_HOME$/Desktop/JAVA 资料/Strus2 开发包/ognl-3.0.6.jar!/" />
       <root url="jar://$USER_HOME$/Desktop/JAVA 资料/Strus2 开发包/struts2-core-2.3.24.jar!/" />
       <root url="jar://$USER_HOME$/Desktop/JAVA 资料/Strus2 开发包/xwork-core-2.3.24.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/JAVA 资料/Strus2 开发包/servlet-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

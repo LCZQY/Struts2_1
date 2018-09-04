@@ -11,7 +11,30 @@
         </action>
 
         <action name="login" class="pages.Logins" method="goHomePage">
+            <result name="success">/WEB-INF/View/login.jsp</result>
+        </action>
+
+        <action name="loginSuccess" class="pages.Logins" method="gologinPage">
+            <!--redirectAction 重定向 -->
+            <result name="success" type="redirectAction">home</result>
+            <result name="error">/WEB-INF/View/error.jsp</result>
+        </action>
+
+        <action name="home" class="pages.Logins" method="listUser">
             <result name="success">/WEB-INF/View/home.jsp</result>
+        </action>
+
+        <action name="register" class="pages.Logins" method="registerPage">
+            <result name="success">/WEB-INF/View/register.jsp</result>
+        </action>
+
+        <action name="regInsert" class="pages.Logins" method="InsertModel">
+            <result name="success">/WEB-INF/View/login.jsp</result>
+        </action>
+
+        <!--删除-->
+        <action name="delete" class="pages.Logins" method="userDelete">
+            <result name="success" type="redirectAction">home</result>
         </action>
     </package>
 </struts>
